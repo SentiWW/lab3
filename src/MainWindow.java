@@ -106,11 +106,11 @@ public class MainWindow extends JFrame implements MouseMotionListener {
         }
 
         // Center right
-        if (centerRightBound.contains(cursor)) {
-            System.out.println("Center right");
-            clickMe.setBounds(bounds.x - Constants.SafeZone, bounds.y,
-                    Constants.ClickMeButtonWidth, Constants.ClickMeButtonHeight);
-        }
+        // if (centerRightBound.contains(cursor)) {
+        //     System.out.println("Center right");
+        //     clickMe.setBounds(bounds.x - Constants.SafeZone, bounds.y,
+        //             Constants.ClickMeButtonWidth, Constants.ClickMeButtonHeight);
+        // }
 
         // Bottom left
         if (bottomLeftBound.contains(cursor)) {
